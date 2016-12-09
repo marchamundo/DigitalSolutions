@@ -6,29 +6,18 @@
         <h1>EDF Energy Digital Solutions Team</h1>
     
      
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+      
     </div>
 
     <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
+        <div class="col-md-12">
+            <h2>What we do...</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                We're a newly formed team, looking to develop digital solutions to the business, whatever they may be. To aid productivity and provide proof of concept, delivering the minimum viable product to ensure we don't waste time on unnecessary bulk.
             </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+            
         </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
+      
 
        
     </div>
