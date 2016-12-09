@@ -3,10 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Version 2 of the Site!</h1>
-        <p>Some more text here too.</p>
-        <p>Changed after deleting the branch</p>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
+        <h1>EDF Energy Digital Solutions Team</h1>
+    
+     
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
