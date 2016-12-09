@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title>EDF Energy Digital Solutions</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -39,7 +39,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,15 +47,60 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+
+                    <a href="#" class="pull-left" style="min-width: 50px; padding-left: 10px; padding: 5px;">
+
+                        <img src="Images/EDF.png" style="" width="24" />
+
+                    </a>
+
+
+                    <a href="./" class="navbar-brand">Digital Solutions</a>
                 </div>
-                <div class="navbar-collapse collapse">
+                <div id="navbar" class="navbar-collapse collapse">
+
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Applications <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header">Live</li>
+
+                                <li><a runat="server" href="https://cgrgenerationoutputdata.azurewebsites.net/Overview">Generation Data</a></li>
+                              
+
+                                <li role="separator" class="divider"></li>
+
+                                <li class="dropdown-header">Prototype</li>
+
+                                <li><a runat="server" href="Default.aspx">Emergency Notification App</a></li>
+                            </ul>
+                        </li>
+
+                        
+
+                        
+                    
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="About.aspx">About</a></li>
+                               
+
+                              
+
+
+                            </ul>
+                        </li>
+
+
+
                     </ul>
                 </div>
+
+
             </div>
         </div>
         <div class="container body-content">
@@ -63,7 +108,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - EDF Energy</p>
             </footer>
         </div>
 
